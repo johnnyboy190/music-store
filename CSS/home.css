@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#2F4F4F;
+}
+
+
+
+/* navigation */
+
+header{
+    text-align: center;
+    background-color: #F0FFFF;
+}
+
+nav img{
+    position: relative;
+    right: 180px;
+    top: 26px;
+    border: 2px solid #F0FFFF;
+    border-radius: 70px;
+    
+}
+
+
+nav img:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition-duration: 0.8s;
+}
+
+header ul{
+    margin: 0;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+header li{
+    display: inline;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+    right:8%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    border-radius:10px ;
+    border: 1px solid #F0FFFF;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:fantasy;
+    transition: background-color 0.5s ease-out;
+}
+
+
+nav a:hover{
+    background-color: aquamarine;
+}
+
+
+header input{
+    position: relative;
+    left: 41%;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: left;
+    font-weight: bold;   
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+header input:hover{
+    cursor: pointer;
+    background-color: #F5F5DC;
+}
+
+header input:active{
+    cursor: auto;
+}
+
+
+header hr{
+    height: 5px;
+    background-color: black;
+    border: 2px solid black;
+    margin: 0px;
+}
+/* BODY */
+main{
+    text-align: center;
+}
+
+
+#welcome{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+
+.sub_wlc{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+
+
+.btn_enter{
+    text-align: center;
+    font-weight: bold;
+    font-family:cursive;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: #F5F5DC;
+    height: 60px;
+    
+}
+
+.btn_enter:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+
+main hr{
+    height: 5px;
+    background-color: black;
+    border: 2px solid black;
+    margin: 0px;
+}
+
+/* footer */
+.foot{
+    background-color:#F0FFFF ;
+    padding-bottom: 0px;
+    padding-top: 25px;
+    
+}
+
+.foot ul{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    list-style: none;
+    text-align: left;
+}
+
+
+footer li{
+    display: inline;
+    padding-right: 50px;
+    
+}
+
+
+
+footer a{
+    text-decoration: none;
+    font-size: 19px;
+    
+}
